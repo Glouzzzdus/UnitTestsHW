@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzKata", "FizzBuzzKat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzTests", "FizzBuzzTests\FizzBuzzTests.csproj", "{5AFC5C86-1DC6-4A5E-91D8-51616EE20AF5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddEvenKata", "OddEvenKata\OddEvenKata.csproj", "{7C0A9BE1-5896-4A1B-8640-E21838A9DA03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddEvenTests", "OddEvenTests\OddEvenTests.csproj", "{84C858F6-0667-4434-BF68-45558411261B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{5AFC5C86-1DC6-4A5E-91D8-51616EE20AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AFC5C86-1DC6-4A5E-91D8-51616EE20AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AFC5C86-1DC6-4A5E-91D8-51616EE20AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C0A9BE1-5896-4A1B-8640-E21838A9DA03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C0A9BE1-5896-4A1B-8640-E21838A9DA03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C0A9BE1-5896-4A1B-8640-E21838A9DA03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C0A9BE1-5896-4A1B-8640-E21838A9DA03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84C858F6-0667-4434-BF68-45558411261B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C858F6-0667-4434-BF68-45558411261B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C858F6-0667-4434-BF68-45558411261B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C858F6-0667-4434-BF68-45558411261B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
