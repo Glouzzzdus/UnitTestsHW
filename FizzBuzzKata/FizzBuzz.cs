@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FizzBuzzKata
 {
-    internal class FizzBuzz
+    public class FizzBuzz
     {
         public string GetResult(int number)
         {
