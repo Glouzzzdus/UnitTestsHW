@@ -17,5 +17,17 @@ namespace FizzBuzzTests
             // Assert
             Assert.AreEqual("1", result);
         }
+        [TestMethod]
+        public void Input33_ReturnsFizz()
+        {
+            // Arrange
+            var fizzBuzz = new FizzBuzz();
+
+            // Act
+            var result = fizzBuzz.GetResult(33);
+
+            // Assert
+            Assert.AreEqual("Fizz", result);
+        }
     }
 }

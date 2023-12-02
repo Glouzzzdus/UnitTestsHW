@@ -10,7 +10,8 @@ namespace FizzBuzzKata
     {
         public string GetResult(int number)
         {
-            return number.ToString();
+            if (number % 3 == 0) return "Fizz";
+            else return number.ToString();
         }
     }
 }
