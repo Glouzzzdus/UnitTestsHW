@@ -41,5 +41,29 @@ namespace FizzBuzzTests
             // Assert
             Assert.AreEqual("Buzz", result);
         }
+        [TestMethod]
+        public void Input15_ReturnsFizzBuzz()
+        {
+            // Arrange
+            var fizzBuzz = new FizzBuzz();
+
+            // Act
+            var result = fizzBuzz.GetResult(15);
+
+            // Assert
+            Assert.AreEqual("FizzBuzz", result);
+        }
+        [TestMethod]
+        public void InputNegative_ReturnsEmpty()
+        {
+            // Arrange
+            var fizzBuzz = new FizzBuzz();
+
+            // Act
+            var result = fizzBuzz.GetResult(-1);
+
+            // Assert
+            Assert.AreEqual(string.Empty, result);
+        }
     }
 }
