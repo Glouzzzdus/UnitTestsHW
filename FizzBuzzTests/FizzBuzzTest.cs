@@ -65,5 +65,17 @@ namespace FizzBuzzTests
             // Assert
             Assert.AreEqual(string.Empty, result);
         }
+        [TestMethod]
+        public void InputMoreThan100_ReturnsEmpty()
+        {
+            // Arrange
+            var fizzBuzz = new FizzBuzz();
+
+            // Act
+            var result = fizzBuzz.GetResult(101);
+
+            // Assert
+            Assert.AreEqual(string.Empty, result);
+        }
     }
 }
