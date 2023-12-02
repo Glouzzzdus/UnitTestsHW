@@ -8,5 +8,9 @@ namespace FizzBuzzKata
 {
     internal class FizzBuzz
     {
+        public string GetResult(int number)
+        {
+            return number.ToString();
+        }
     }
 }
