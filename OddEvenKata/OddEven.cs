@@ -9,13 +9,23 @@ namespace OddEvenKata
     public class OddEven
     {
         public string GetResult(int number)
-        {
+        { 
+            string result = string.Empty;
             if (number >= 1 && number <= 100) 
             {
+                if (number % 2 == 0) 
+                {
+                    result = result + "Even ";
+                }
+                else
+                {
+                    result = result + "Odd ";
+                }
                 
             } 
-            else return string.Empty;
+            else result = result + string.Empty;
 
+            return result;
         }
 
         public bool IsPrime(int number)

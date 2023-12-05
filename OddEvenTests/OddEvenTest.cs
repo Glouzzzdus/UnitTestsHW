@@ -15,7 +15,7 @@ namespace OddEvenTests
             var result = oddEven.GetResult(1);
 
             // Assert
-            Assert.AreEqual("1", result);
+            Assert.AreEqual("Odd ", result);
         }
     }
 }
