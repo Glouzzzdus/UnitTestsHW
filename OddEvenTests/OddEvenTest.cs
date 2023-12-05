@@ -56,5 +56,18 @@ namespace OddEvenTests
             // Assert
             Assert.AreEqual("Even Composite", result);
         }
+
+        [TestMethod]
+        public void InputNegative_ReturnsEmpty()
+        {
+            // Arrange
+            var oddEven = new OddEven();
+
+            // Act
+            var result = oddEven.GetResult(-1);
+
+            // Assert
+            Assert.AreEqual(string.Empty, result);
+        }
     }
 }
