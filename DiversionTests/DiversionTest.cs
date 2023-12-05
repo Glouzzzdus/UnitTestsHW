@@ -19,5 +19,20 @@ namespace DiversionTests
             // Assert
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        public void Test_CountBinarySequences_WhenNIs5()
+        {
+            // Arrange
+            int n = 5;
+            int expected = 13;
+            var sequenceCounter = new Diversion();
+
+            // Act
+            int actual = sequenceCounter.CountBinarySequencesWithoutAdjacentOnes(n);
+
+            // Assert
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
