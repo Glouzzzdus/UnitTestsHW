@@ -15,20 +15,25 @@ namespace OddEvenKata
             {
                 if (number % 2 == 0) 
                 {
-                    result = result + "Even ";
+                    result += "Even ";
                 }
                 else
                 {
-                    result = result + "Odd ";
+                    result += "Odd ";
                 }
 
                 if (IsPrime(number)) 
                 {
-                    result = result + "Prime";
+                    result += "Prime";
+                }
+
+                if (IsComposite(number))
+                {
+                    result += "Composite";
                 }
                 
             } 
-            else result = result + string.Empty;
+            else result += string.Empty;
 
             return result;
         }
