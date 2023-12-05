@@ -43,5 +43,18 @@ namespace OddEvenTests
             // Assert
             Assert.AreEqual("Odd Prime", result);
         }
+
+        [TestMethod]
+        public void Input4_ReturnsEvenComposite()
+        {
+            // Arrange
+            var oddEven = new OddEven();
+
+            // Act
+            var result = oddEven.GetResult(4);
+
+            // Assert
+            Assert.AreEqual("Even Composite", result);
+        }
     }
 }
