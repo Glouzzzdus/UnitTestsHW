@@ -17,5 +17,18 @@ namespace OddEvenTests
             // Assert
             Assert.AreEqual("Odd ", result);
         }
+
+        [TestMethod]
+        public void Input2_ReturnsEvenPrime()
+        {
+            // Arrange
+            var oddEven = new OddEven();
+
+            // Act
+            var result = oddEven.GetResult(2);
+
+            // Assert
+            Assert.AreEqual("Even Prime", result);
+        }
     }
 }

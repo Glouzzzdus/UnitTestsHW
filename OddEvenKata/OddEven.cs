@@ -21,6 +21,11 @@ namespace OddEvenKata
                 {
                     result = result + "Odd ";
                 }
+
+                if (IsPrime(number)) 
+                {
+                    result = result + "Prime";
+                }
                 
             } 
             else result = result + string.Empty;
