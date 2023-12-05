@@ -69,5 +69,18 @@ namespace OddEvenTests
             // Assert
             Assert.AreEqual(string.Empty, result);
         }
+
+        [TestMethod]
+        public void InputMoreThan100_ReturnsEmpty()
+        {
+            // Arrange
+            var oddEven = new OddEven();
+
+            // Act
+            var result = oddEven.GetResult(101);
+
+            // Assert
+            Assert.AreEqual(string.Empty, result);
+        }
     }
 }
